@@ -1,0 +1,28 @@
+.nav {
+    padding: 20px 50px;
+    width: 45%;
+    position: fixed;
+    box-sizing: border-box;
+    right: 27%;
+    background-color: rgba(255, 255, 255, 0.445);
+    z-index: 1;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_link:hover{
+    color:white;
+}
+
+.nav_link {
+    flex-direction: row;
+    color: inherit;
+    padding: 0px 27px;
+    font-size: 20px;
+
+}

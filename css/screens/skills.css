@@ -1,0 +1,30 @@
+
+.skills{
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+.skills,
+.skill_title_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill_title{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom:70px;
+}
+
+.skill_logo{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-color: white;
+}
+
+.skill_title_list li {
+    margin: 20px 15px;
+}

@@ -1,0 +1,21 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import "reset.css";
+@import "variables.css";
+
+@import "nav-bar.css";
+
+/*Screens*/
+@import "screens/home.css";
+@import "screens/about.css";
+@import "screens/skills.css";
+@import "screens/project.css";
+@import "screens/contact.css";
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:#f5f5f5 ;
+}
+

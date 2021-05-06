@@ -1,0 +1,44 @@
+
+.about{
+    height:35vh;
+    width: 100%;
+    display: flex;    
+}
+
+
+.about_title,
+.about_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.about_title{
+    font-weight: bold;
+    font-size: 40px;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    /*position: relative;*/
+    background-color:var(--purple);
+}
+
+.about_text{
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 70%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 35px;
+    padding-left: 30px;
+    background-color: white;
+}
+
+/*.about_title_line{
+    background-color: var(--purple);
+    width:2px;
+    height: 45%;
+    position: absolute;
+    right:0;
+    opacity: 0.5;
+}*/
